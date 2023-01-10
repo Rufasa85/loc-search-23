@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside>
+        <h1>Library of Congress Search Engine!</h1>
+        <form action="" id="search-form">
+            <input type="text" id="search-term" placeholder="search term">
+            <select  id="search-format">
+                <option value="maps">Maps</option>
+                <option value="audio">Audio</option>
+                <option value="photos">Pictures</option>
+                <option value="manuscripts">Manuscripts</option>
+                <option value="newspapers">Newspapers</option>
+                <option value="film-and-videos">Film & Video</option>
+                <option value="notated-music">Music</option>
+                <option value="websites">Websites</option>
+            </select>
+            <button>Search</button>
+        </form>
+    </aside>
+    <main>
+        <h2>Results for <span id="search-span"></span></h2>
+        <div id="results-container"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
